@@ -1,2 +1,1 @@
-handinhand
-==========
+# Website for Hand in Hand for Literacy

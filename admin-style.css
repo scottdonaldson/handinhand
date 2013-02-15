@@ -1,0 +1,32 @@
+#wp-admin-bar-wp-logo {
+	display:none;
+}
+
+#right-sidebar input[type="text"] {
+	display:none;
+}
+
+#right-sidebar img {
+	max-width:180px;
+}
+
+#right-sidebar h2 {
+	cursor:pointer;
+	margin-top:10px;
+	margin-bottom:0;
+}
+
+#right-sidebar h2:hover {
+	color:#999;
+}
+
+h2.change {
+	position:relative;
+	left:10px;
+	font-size:120% !important;
+}
+
+h2.remove {
+	clear:right !important;
+	color:#d00;
+}

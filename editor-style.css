@@ -1,0 +1,15 @@
+.alignright {
+	margin:0 0 10px 10px;
+}
+
+.alignleft {
+	margin:0 10px 10px 0;
+}
+
+.aligncenter {
+	margin-bottom:10px;
+}
+
+hr {
+	clear:both;
+}
