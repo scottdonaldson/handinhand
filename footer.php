@@ -3,7 +3,7 @@
   </div><!-- #container -->
 
   <footer id="footer">
-    &copy; <?= date('Y'); ?> All Rights Reserved. Hand in Hand for Literacy: Suite 306, 26 Exchange St. E., St. Paul, MN 55101.
+    &copy; <?= date('Y'); ?> All Rights Reserved. Hand in Hand for Literacy: 5223 Scenic Lake Dr. NW, Akeley, MN 56433.
     </footer>
 
   <!--[if lt IE 7 ]>
@@ -11,9 +11,9 @@
     <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
   <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="<?php echo bloginfo('template_url'); ?>/js/jquery.flexslider-min.js"></script> 
-  <script src="<?php echo bloginfo('template_url'); ?>/js/jquery.fittext.js"></script>  
-    <script src="<?php echo bloginfo('template_url'); ?>/js/jquery.fitvids.js"></script>  
+    <script src="<?php echo bloginfo('template_url'); ?>/js/jquery.flexslider-min.js"></script>
+  <script src="<?php echo bloginfo('template_url'); ?>/js/jquery.fittext.js"></script>
+    <script src="<?php echo bloginfo('template_url'); ?>/js/jquery.fitvids.js"></script>
   <script src="<?php echo bloginfo('template_url'); ?>/js/hand.js"></script>
 
   <script>

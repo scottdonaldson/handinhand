@@ -8,16 +8,16 @@ get_header(); ?>
 
 <section id="left-nav" class="three columns hide-on-phones noprint">
 	<?php if ($post->post_parent)
-        	{ $children = wp_list_pages('title_li=&child_of='.$post->post_parent.'&echo=0'); 
-			  $parent_link = get_permalink($post->post_parent); 
+        	{ $children = wp_list_pages('title_li=&child_of='.$post->post_parent.'&echo=0');
+			  $parent_link = get_permalink($post->post_parent);
 			  $parent = get_the_title($post->post_parent); }
     	else
-    		{ $children = wp_list_pages('title_li=&child_of='.$post->ID.'&echo=0'); 
-			  $parent_link = get_permalink($post->ID); 
+    		{ $children = wp_list_pages('title_li=&child_of='.$post->ID.'&echo=0');
+			  $parent_link = get_permalink($post->ID);
 			  $parent = get_the_title($post->ID); }
-    	if ($children) { 
+    	if ($children) {
 		?>
-        
+
         <ul>
       		<li <?php if (is_page($parent)) { echo 'class="current_page_item"'; } ?>>
             	<a href="<?php echo $parent_link; ?>">
@@ -28,7 +28,7 @@ get_header(); ?>
 
       	</ul>
     <?php } ?>
-    
+
     <?php get_sidebar(); ?>
 </section>
 
@@ -56,9 +56,9 @@ get_header(); ?>
         	Or pay by check:<br />
         	<br />
         	<strong>Hand in Hand for Literacy</strong><br />
-            26 Exchange St. E, Suite 306<br />
-            St. Paul, MN 55101
-       	</p>	
+			5223 Scenic Lake Dr. NW<br>
+			Akeley, MN 56433
+       	</p>
     </div>
 </article>
 
